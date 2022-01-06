@@ -47,7 +47,7 @@ var dataMap = [
         linkOfProject: 'https://modalsrct.netlify.app/',
         Namecourses: '',
         linkOfCourse: '',
-    }
+    },
 
 ];
 
