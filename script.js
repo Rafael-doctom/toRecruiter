@@ -41,6 +41,13 @@ var dataMap = [
         Namecourses: '',
         linkOfCourse: '',
     },
+    {
+        Technologies: 'React.js, Hooks & Tailwind.css',
+        Nameprojects: 'Login',
+        linkOfProject: 'https://modalsrct.netlify.app/',
+        Namecourses: '',
+        linkOfCourse: '',
+    }
 
 ];
 
