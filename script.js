@@ -1,13 +1,13 @@
 var dataMap = [
     {
-        Technologies: 'HTML, CSS e JAVASCRIPT',
+        Technologies: 'Html, Css e Js',
         Nameprojects: 'Agência de Viagens',
         linkOfProject: 'https://rafael-doctom.github.io/agencia-de-viagens/',
         linkOfRepo: 'https://github.com/Rafael-doctom/agencia-de-viagens',
         NameRepo: 'agencia-de-viagens',
     },
     {
-        Technologies: 'HTML, CSS e JAVASCRIPT',
+        Technologies: 'Html, Css e Js',
         Nameprojects: 'E-commerce product page ',
         linkOfProject: 'https://rafael-doctom.github.io/E-commerce-product-page-challenge-hub/',
         linkOfRepo: 'https://github.com/Rafael-doctom/E-commerce-product-page-challenge-hub',
@@ -15,7 +15,7 @@ var dataMap = [
 
     },
     {
-        Technologies: 'HTML, CSS',
+        Technologies: 'Html e Css',
         Nameprojects: 'FlexBlog',
         linkOfProject: 'https://rafael-doctom.github.io/FlexBlog/',
         linkOfRepo: 'https://github.com/Rafael-doctom/FlexBlog',
@@ -29,14 +29,14 @@ var dataMap = [
         NameRepo: 'search-cep-api',
     },
     {
-        Technologies: 'HTML e JAVASCRIPT',
+        Technologies: 'Html e JavaScript',
         Nameprojects: 'Chart.js ',
         linkOfProject: 'https://rafael-doctom.github.io/chart.js/',
         linkOfRepo: 'https://github.com/Rafael-doctom/chart.js',
         NameRepo: 'chart.js',
     },
     {
-        Technologies: 'HTML e CSS',
+        Technologies: 'Html e Css',
         Nameprojects: 'Caravan',
         linkOfProject: 'https://rafael-doctom.github.io/caravan/',
         linkOfRepo: 'https://github.com/Rafael-doctom/caravan',
@@ -49,7 +49,34 @@ var dataMap = [
         linkOfRepo: 'https://github.com/Rafael-doctom/modals',
         NameRepo: 'login',
     },
-
+    {
+        Technologies: 'Html, Css e Js',
+        Nameprojects: 'acender-lampada',
+        linkOfProject: 'https://rafael-doctom.github.io/acender-lampada/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/acender-lampada',
+        NameRepo: 'acender-lampada',
+    },
+    {
+        Technologies: 'React Native',
+        Nameprojects: 'calcImc',
+        linkOfProject: 'https://github.com/Rafael-doctom/calcImcReactNative',
+        linkOfRepo: 'https://github.com/Rafael-doctom/calcImcReactNative',
+        NameRepo: 'calcImc',
+    },
+    {
+        Technologies: 'Python3',
+        Nameprojects: 'api-cotação',
+        linkOfProject: 'https://github.com/Rafael-doctom/apiPython',
+        linkOfRepo: 'https://github.com/Rafael-doctom/apiPython',
+        NameRepo: 'api-cotação',
+    },
+    {
+        Technologies: 'Html, Css e Js',
+        Nameprojects: 'sistema-de-multas',
+        linkOfProject: 'https://rafael-doctom.github.io/sistema-de-multas/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/sistema-de-multas',
+        NameRepo: 'sistema-de-multas',
+    },
 ];
 
 var describeMap = dataMap.map(function (item, indice) {
