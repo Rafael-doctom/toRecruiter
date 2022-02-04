@@ -1,5 +1,26 @@
 var dataMap = [
     {
+        Technologies: 'Html, Bootstrap e Js',
+        Nameprojects: 'login-localStorage',
+        linkOfProject: 'https://rafael-doctom.github.io/login-localStorage/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/login-localStorage',
+        NameRepo: 'login-localStorage',
+    },
+    {
+        Technologies: 'Python3',
+        Nameprojects: 'Real quote',
+        linkOfProject: 'https://github.com/Rafael-doctom/real-quote',
+        linkOfRepo: 'https://github.com/Rafael-doctom/real-quote',
+        NameRepo: 'real-quote',
+    },
+    {
+        Technologies: 'Html, Css e Bootstrap',
+        Nameprojects: 'Finans',
+        linkOfProject: 'https://rafael-doctom.github.io/finans/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/finans',
+        NameRepo: 'finans',
+    },
+    {
         Technologies: 'Html, Css e Js',
         Nameprojects: 'Agência de Viagens',
         linkOfProject: 'https://rafael-doctom.github.io/agencia-de-viagens/',
@@ -34,6 +55,13 @@ var dataMap = [
         linkOfProject: 'https://rafael-doctom.github.io/chart.js/',
         linkOfRepo: 'https://github.com/Rafael-doctom/chart.js',
         NameRepo: 'chart.js',
+    },
+    {
+        Technologies: 'Html, Css, Bootstrap e JavaScript',
+        Nameprojects: 'set-cookies',
+        linkOfProject: 'https://rafael-doctom.github.io/set-cookies/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/set-cookies',
+        NameRepo: 'set-cookies',
     },
     {
         Technologies: 'Html e Css',
