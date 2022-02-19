@@ -1,5 +1,12 @@
 var dataMap = [
     {
+        Technologies: 'React.js & UseState',
+        Nameprojects: 'challenge01_codelandia',
+        linkOfProject: 'https://challenge01-codelandia.netlify.app/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/challenge01_codelandia',
+        NameRepo: 'challenge01_codelandia',
+    },
+    {
         Technologies: 'Html, Bootstrap e Js',
         Nameprojects: 'login-localStorage',
         linkOfProject: 'https://rafael-doctom.github.io/login-localStorage/',
