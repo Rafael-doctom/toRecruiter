@@ -28,6 +28,13 @@ var dataMap = [
         NameRepo: 'calcImcReactNative',
     },
     {
+        Technologies: 'Next.JS',
+        Nameprojects: 'api-json-placeholder',
+        linkOfProject: 'https://api-json-placeholder.netlify.app/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/api-json-placeholder',
+        NameRepo: 'api-json-placeholder',
+    },
+    {
         Technologies: 'Html, Css e Bootstrap',
         Nameprojects: 'Finans',
         linkOfProject: 'https://rafael-doctom.github.io/finans/',
