@@ -33,7 +33,7 @@ nav{
 @media (max-width:425px){
     
     html{
-        font-size: 50%;
+        font-size: 75%;
     }
     
     nav{
@@ -41,6 +41,36 @@ nav{
         height: 100%;
         padding: 1rem;
         margin: 30px auto;
+    }
+        
+}
+
+@media (max-width:375px){
+    
+    html{
+        font-size: 65%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        margin: 30px auto;
+    }
+        
+}
+
+@media (max-width:320px){
+    
+    html{
+        font-size: 58%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        margin: 10px auto;
     }
         
 }
