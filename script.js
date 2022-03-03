@@ -126,6 +126,13 @@ var dataMap = [
         linkOfRepo: 'https://github.com/Rafael-doctom/sistema-de-multas',
         NameRepo: 'sistema-de-multas',
     },
+    {
+        Technologies: 'Html, Css e Js',
+        Nameprojects: 'contador',
+        linkOfProject: 'https://rafael-doctom.github.io/contador/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/contador',
+        NameRepo: 'contador',
+    },
 ];
 
 var describeMap = dataMap.map(function (item, indice) {
