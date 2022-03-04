@@ -135,9 +135,9 @@ var dataMap = [
     },
 ];
 
-var describeMap = dataMap.map(function (item, indice) {
+var describeMap = dataMap.map(function (item) {
     return `
-            <tr>
+            <tr class="dataItems">
                 <td>
                     ${item.Technologies}
                 </td>
@@ -156,4 +156,20 @@ var describeMap = dataMap.map(function (item, indice) {
 
 document.querySelector("#result").innerHTML = describeMap.join("");
 
+const handleClickBackToTop = () => {
+    window.scrollTo(0, 0);
+};
 
+
+const SearchDatasInput = () => {
+    var inputValue = document.getElementById('inputValue').value
+    let dataItems = document.getElementsByClassName("dataItems");
+    let i = 0;
+    for (i = 0; i < dataItems.length; i++) {
+        if (!dataItems[i].innerHTML.toLowerCase().includes(inputValue)) {
+            dataItems[i].style.display = "none";
+        } else {
+            dataItems[i].style.display = "flex";
+        }
+    }
+}
