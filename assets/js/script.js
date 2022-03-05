@@ -162,14 +162,16 @@ const handleClickBackToTop = () => {
 
 
 const SearchDatasInput = () => {
-    var inputValue = document.getElementById('inputValue').value
+
+    let inputValue = document.getElementById('inputValue').value;
     let dataItems = document.getElementsByClassName("dataItems");
+
     let i = 0;
     for (i = 0; i < dataItems.length; i++) {
-        if (!dataItems[i].innerHTML.toLowerCase().includes(inputValue)) {
+        if (!dataItems[i].innerHTML.includes(inputValue)) {
             dataItems[i].style.display = "none";
         } else {
-            dataItems[i].style.display = "flex";
-        }
-    }
-}
+            dataItems[i].style.display = "block";
+        };
+    };
+};
