@@ -43,6 +43,33 @@ svg:hover{
     fill: #5e95ee;
 }
 
+table{
+    table-layout:fixed;
+    text-align: left;
+}
+
+.describe1{
+    width: 24.5vw;
+    min-width: 24.5vw;
+}
+
+.describe2{
+    width: 24.1vw;
+    min-width: 24.1vw;
+}
+
+.describe3{
+    width: 24vw;
+    min-width: 24vw;
+}
+
+.describe4{
+    width: 20vw;
+    min-width: 20vw;
+    max-width: 20vw;
+    font-size: 0.85rem;
+}
+
 /* mediaQueries */
 @media (max-width:768px){
     
@@ -72,7 +99,7 @@ svg:hover{
         margin: 30px auto;
     }
     
-    .describe{
+    .describe4, .describe{
         display: none;
     }
 }
