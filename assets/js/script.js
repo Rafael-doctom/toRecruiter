@@ -170,7 +170,7 @@ var describeMap = dataMap.map(function (item) {
                         ${item.NameRepo}
                     </a>                
                 </td>
-                <td>
+                <td class="describe">
                     ${item.describe}
                 </td>
             </tr>`;

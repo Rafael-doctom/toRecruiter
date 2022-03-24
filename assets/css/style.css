@@ -71,7 +71,10 @@ svg:hover{
         padding: 1rem;
         margin: 30px auto;
     }
-        
+    
+    .describe{
+        display: none;
+    }
 }
 
 @media (max-width:375px){
