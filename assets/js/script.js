@@ -1,11 +1,19 @@
 var dataMap = [
     {
         Technologies: 'React.js & UseState',
+        Nameprojects: 'teamSoft_frontEnd',
+        linkOfProject: 'https://team-soft.netlify.app/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/teamSoft_frontEnd',
+        NameRepo: 'teamSoft_frontEnd',
+        describe: 'Trata-se de um teste técnico, que é desevolver uma página de Dellivery, possui algumas funcionalides, como: Buscar produto, + de 1 produto disponível, Tela adaptada p/ dispositivos móveis, Adicionar Talher + PopUp de confirmação, Consumo de API.'
+    },
+    {
+        Technologies: 'React.js & UseState',
         Nameprojects: 'challenge01_codelandia',
         linkOfProject: 'https://challenge01-codelandia.netlify.app/',
         linkOfRepo: 'https://github.com/Rafael-doctom/challenge01_codelandia',
         NameRepo: 'challenge01_codelandia',
-        describe: 'Página de blog desenhada por Iuri Silva - Codelândia'
+        describe: 'Desafio de recriar o Layout através do Figma, trata-se de uma página de blog desenhada por Iuri Silva(Codelândia)'
     },
     {
         Technologies: 'Html, Bootstrap e Js',
@@ -47,7 +55,7 @@ var dataMap = [
         NameRepo: 'finans',
         describe: 'Desenvolvida durante o curso da Origamid'
     },
-  
+
     {
         Technologies: 'Html, Css e Js',
         Nameprojects: 'E-commerce product page ',
@@ -157,20 +165,20 @@ var dataMap = [
 var describeMap = dataMap.map(function (item) {
     return `
             <tr class="dataItems">
-                <td>
+                <td class="describe1"> 
                     ${item.Technologies}
                 </td>
-                <td>
+                <td  class="describe2">
                     <a href="${item.linkOfProject}" target="_blank">
                         ${item.Nameprojects}
                     </a>                
                 </td>
-                <td>
+                <td  class="describe3">
                     <a href="${item.linkOfRepo}" target="_blank">
                         ${item.NameRepo}
                     </a>                
                 </td>
-                <td class="describe">
+                <td class="describe4">
                     ${item.describe}
                 </td>
             </tr>`;
