@@ -5,7 +5,7 @@ var dataMap = [
         linkOfProject: 'https://team-soft.netlify.app/',
         linkOfRepo: 'https://github.com/Rafael-doctom/teamSoft_frontEnd',
         NameRepo: 'teamSoft_frontEnd',
-        describe: 'Trata-se de um modal técnico, que é desevolver uma página de Dellivery, possui algumas funcionalides, como: Buscar produto, + de 1 produto disponível, Tela adaptada p/ dispositivos móveis, Adicionar Talher + PopUp de confirmação, Consumo de API.'
+        describe: 'Trata-se de um teste técnico, que é desevolver uma página de Dellivery, possui algumas funcionalides, como: Buscar produto, + de 1 produto disponível, Tela adaptada p/ dispositivos móveis, Adicionar Talher + PopUp de confirmação, Consumo de API.'
     },
     {
         Technologies: 'React.js & UseState',
