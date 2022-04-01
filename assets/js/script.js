@@ -5,7 +5,7 @@ var dataMap = [
         linkOfProject: 'https://team-soft.netlify.app/',
         linkOfRepo: 'https://github.com/Rafael-doctom/teamSoft_frontEnd',
         NameRepo: 'teamSoft_frontEnd',
-        describe: 'Trata-se de um teste técnico, que é desevolver uma página de Dellivery, possui algumas funcionalides, como: Buscar produto, + de 1 produto disponível, Tela adaptada p/ dispositivos móveis, Adicionar Talher + PopUp de confirmação, Consumo de API.'
+        describe: 'Trata-se de um modal técnico, que é desevolver uma página de Dellivery, possui algumas funcionalides, como: Buscar produto, + de 1 produto disponível, Tela adaptada p/ dispositivos móveis, Adicionar Talher + PopUp de confirmação, Consumo de API.'
     },
     {
         Technologies: 'React.js & UseState',
@@ -13,7 +13,7 @@ var dataMap = [
         linkOfProject: 'https://challenge01-codelandia.netlify.app/',
         linkOfRepo: 'https://github.com/Rafael-doctom/challenge01_codelandia',
         NameRepo: 'challenge01_codelandia',
-        describe: 'Desafio de recriar o Layout através do Figma, trata-se de uma página de blog desenhada por Iuri Silva(Codelândia)'
+        describe: 'Este é um Desafio de recriar o Layout através do Figma. - Trata-se de uma página de blog desenhada por Iuri Silva(Codelândia). Possui algumas funcionalides, como: Pesquisar, DarkMode e Consumo de API.'
     },
     {
         Technologies: 'Html, Bootstrap e Js',
@@ -21,7 +21,7 @@ var dataMap = [
         linkOfProject: 'https://rafael-doctom.github.io/login-localStorage/',
         linkOfRepo: 'https://github.com/Rafael-doctom/login-localStorage',
         NameRepo: 'login-localStorage',
-        describe: 'Página de Login'
+        describe: 'Página de Login, possui funcionalidades, como: Autenticação de Login, armazenar dados no localStorage.'
     },
     {
         Technologies: 'Python3',
@@ -29,7 +29,7 @@ var dataMap = [
         linkOfProject: 'https://github.com/Rafael-doctom/real-quote',
         linkOfRepo: 'https://github.com/Rafael-doctom/real-quote',
         NameRepo: 'real-quote',
-        describe: 'Cotação em tempo real'
+        describe: 'Aplicação feita em Python, utilizando o Tkinter para criar a interface gráfica, serve para buscar informações sobre cotação em tempo real.'
     },
     {
         Technologies: 'React Native',
@@ -205,3 +205,14 @@ const SearchDatasInput = () => {
         };
     };
 };
+
+const removeModal = () => {
+
+    let modal = document.getElementById("modal")
+
+    if (modal.style.display === 'block') {
+        modal.style.display = 'none'
+    }{
+        modal.style.display = 'none'
+    }
+}

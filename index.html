@@ -20,8 +20,8 @@
     <nav>
         <div class="form-outline  d-flex w-100">
             <input type="search" class="form-control rounded" placeholder="Digite algo..." aria-label="Search"
-                aria-describedby="search-addon" onkeyup="SearchDatasInput()" id="inputValue"/>
-            <button type="button" class="btn btn-outline-primary w-25" >Pesquisar</button>
+                aria-describedby="search-addon" onkeyup="SearchDatasInput()" id="inputValue" />
+            <button type="button" class="btn btn-outline-primary w-25">Pesquisar</button>
         </div>
         <table class="table table-hover">
             <thead>
@@ -32,9 +32,18 @@
                     <th class="describe">Descrição</th>
                 </tr>
             </thead>
-            <tbody id="result" > </tbody>
+            <tbody id="result"> </tbody>
         </table>
     </nav>
+
+    <div id="modal">
+        <div class="teste2">
+            <button type="button" class="close" onclick="removeModal()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <span>Projetos mais recentes estão no topo! 🤯 </span>
+        </div>
+    </div>
 
     <footer>
         <div class="svgIcon" onclick="handleClickBackToTop()">
