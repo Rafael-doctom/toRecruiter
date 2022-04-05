@@ -1,5 +1,13 @@
 var dataMap = [
     {
+        Technologies: 'Html, Css e Js',
+        Nameprojects: 'text_generator',
+        linkOfProject: 'https://rafael-doctom.github.io/text_generator/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/text_generator',
+        NameRepo: 'text_generator',
+        describe: 'Trata-se de um gerador de texto, que consome dados de uma API, ela que gera os dados de maneira aleatória.',
+    },
+    {
         Technologies: 'React.js & UseState',
         Nameprojects: 'teamSoft_frontEnd',
         linkOfProject: 'https://team-soft.netlify.app/',
