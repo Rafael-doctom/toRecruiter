@@ -1,5 +1,29 @@
 var dataMap = [
     {
+        Technologies: 'React Native & UseState',
+        Nameprojects: 'imc',
+        linkOfProject: 'https://github.com/Rafael-doctom/imc',
+        linkOfRepo: 'https://github.com/Rafael-doctom/imc',
+        NameRepo: 'imc',
+        describe: 'Calculadora de IMC. O Imc é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade.',
+    },
+    {
+        Technologies: 'Html, Css e Js',
+        Nameprojects: 'rocketFlix_',
+        linkOfProject: 'https://rafael-doctom.github.io/rocketFlix_/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/rocketFlix_',
+        NameRepo: 'rocketFlix_',
+        describe: 'Desafio para o discover da rocketseat | Challenge by Rocketseat.',
+    },
+    {
+        Technologies: 'Html, Css e Js',
+        Nameprojects: 'nlw_heat_challenge-01',
+        linkOfProject: 'https://rafael-doctom.github.io/nlw_heat_challenge-01/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/nlw_heat_challenge-01',
+        NameRepo: 'nlw_heat_challenge-01',
+        describe: 'Crachá virtual criado na trilha Origin do NLW/Heat da Rocketseat.',
+    },
+    {
         Technologies: 'Html, Css e Js',
         Nameprojects: 'text_generator',
         linkOfProject: 'https://rafael-doctom.github.io/text_generator/',
@@ -38,14 +62,6 @@ var dataMap = [
         linkOfRepo: 'https://github.com/Rafael-doctom/real-quote',
         NameRepo: 'real-quote',
         describe: 'Aplicação feita em Python, utilizando o Tkinter para criar a interface gráfica, serve para buscar informações sobre cotação em tempo real.'
-    },
-    {
-        Technologies: 'React Native',
-        Nameprojects: 'calcImcReactNative',
-        linkOfProject: 'https://github.com/Rafael-doctom/calcImcReactNative',
-        linkOfRepo: 'https://github.com/Rafael-doctom/calcImcReactNative',
-        NameRepo: 'calcImcReactNative',
-        describe: 'Aplicativo de calcular IMC'
     },
     {
         Technologies: 'Next.JS',
@@ -126,14 +142,6 @@ var dataMap = [
         linkOfProject: 'https://rafael-doctom.github.io/acender-lampada/',
         linkOfRepo: 'https://github.com/Rafael-doctom/acender-lampada',
         NameRepo: 'acender-lampada',
-        describe: ''
-    },
-    {
-        Technologies: 'React Native',
-        Nameprojects: 'calcImc',
-        linkOfProject: 'https://github.com/Rafael-doctom/calcImcReactNative',
-        linkOfRepo: 'https://github.com/Rafael-doctom/calcImcReactNative',
-        NameRepo: 'calcImc',
         describe: ''
     },
     {
