@@ -1,5 +1,13 @@
 var dataMap = [
     {
+        Technologies: 'Html, Css e Js',
+        Nameprojects: 'typewriter-effect',
+        linkOfProject: 'https://rafael-doctom.github.io/typewriter-effect/',
+        linkOfRepo: 'https://github.com/Rafael-doctom/typewriter-effect',
+        NameRepo: 'typewriter-effect',
+        describe: 'Efeito de texto sendo renderizado como uma máquina de escrever.',
+    },
+    {
         Technologies: 'React Native & UseState',
         Nameprojects: 'imc',
         linkOfProject: 'https://github.com/Rafael-doctom/imc',
