@@ -1,5 +1,13 @@
 var dataMap = [
     {
+        Technologies: 'ReactJS, UseState, UseEffect & Modal',
+        Nameprojects: 'harry-potter-api',
+        review: 'https://harry-potter-api0.netlify.app/',
+        repository: 'https://github.com/Rafael-doctom/harry-potter-api',
+        NameRepo: 'harry-potter-api',
+        describe: 'Site com referências da série de fantasia: Harry Potter. Possui algumas funcionalidades, como: home com todos os atores, pesquisar ator/personagem, + abertura de modal para uma das quatro casas de Hogwarts: Grifinória, Sonserina, Corvinal e Lufa-lufa. Tela adaptada p/ dispositivos móveis. Todos os dados são renderizados através do Consumo de API.',
+    },
+    {
         Technologies: 'Html, Css e Js',
         Nameprojects: 'conecta-life',
         review: 'https://rafael-doctom.github.io/conecta-life/',
