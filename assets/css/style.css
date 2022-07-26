@@ -38,6 +38,7 @@ nav{
     padding: 1rem;
     text-align: center;
     margin: 0 auto;
+
 }
 
 .teste2 button span{
@@ -61,12 +62,14 @@ footer{
     right: 1rem;
     transform: rotate(90deg); 
     cursor: pointer;
+
 }
 
 svg{
     width: 5vw;
     height: 5vh;    
     fill: #1266f1;
+
 }
 
 svg:hover{
