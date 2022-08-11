@@ -1,61 +1,37 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import Input from "../../components/input";
+import ScrollTop from "../../components/scrollTop";
+import Table from "../../components/table";
 
-const Table = () => {
+export default function Home() {
 
-    const [data, setData] = useState([]);
+  const [close, setClose] = useState(true)
 
-    const getData = async () => {
-        const response = await fetch('https://api.github.com/users/Rafael-doctom/starred?per_page=100')
-        const dados = await response.json()
-        return setData(dados);
-    };
+  const removeModal = () => {
+    setClose(false)
+  };
 
-
-    useEffect(() => {
-        getData();
-    }, []);
-
-    return (
-        <>
-            <table className="text-left table mt-1 table-hover w-full">
-                <thead className=" border-t-2 ">
-                    <tr className="">
-                        <th className="py-2 pl-1">Tecnologias</th>
-                        <th className="py-2 pl-1">Ver Projeto</th>
-                        <th className="py-2 pl-1">Repositório</th>
-                        <th className="py-2 pl-1">Descrição</th>
-                    </tr>
-                </thead>
-                {
-                    data && (
-                        data.map((item) => {
-                            return (
-                                <>
-                                    <tbody className="">
-                                        <tr className="hover:bg-gray-100  border-y-2">
-                                            <td className="">{item.topics.join(',  ')}</td>
-                                            <td className="py-3 pl-1">
-                                                <a href={item.homepage} target="_blank"  rel="noreferrer">
-                                                    {item.name}
-                                                </a>
-                                            </td>
-                                            <td className="py-3  pl-1">
-                                                <a href={item.html_url}  target="_blank"  rel="noreferrer">
-                                                    {item.name}
-                                                </a>
-                                            </td>
-                                            <td className="py-3  pl-1">{item.description}</td>
-                                        </tr>
-                                    </tbody>
-                                </>
-                            )
-                        })
-                    )
-                }
-
-            </table>
-        </>
-    )
+  return (
+    <>
+      <div className="relative">
+        <div className="max-w-8xl mx-auto  mx-5 mt-4 " >
+          <Input />
+          <Table />
+        </div>
+      </div>
+      {
+        close  ? (
+          <div id="modal">
+            <div class="teste2">
+              <button type="button" class="close" onClick={removeModal}>
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <span>Projetos mais recentes estão no topo! 🤯 </span>
+            </div>
+          </div>
+        ): null
+     }
+      <ScrollTop />
+    </>
+  )
 };
-
-export default Table;
