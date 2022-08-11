@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a{
+    color: rgb(0, 123, 255);
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    width: 20vw;
+    min-width: 20vw;
+    max-width: 20vw;
+}
+
+
+tr{
+    width: 20vw;
+    min-width: 20vw;
+    max-width: 20vw;
+}
+
+td{
+    width: 20vw;
+    min-width: 20vw;
+    max-width: 20vw;
+}
+
+@media (max-width:1024px){
+    th{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 90%;
+    }
+    
+    tr{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 90%;
+    }
+    
+    td{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 90%;
+    }
+}
+
+@media (max-width:768px){
+    th{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 80%;
+    }
+    
+    tr{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 80%;
+    }
+    
+    td{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 80%;
+    }
+}
