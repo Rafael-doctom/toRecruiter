@@ -40,7 +40,7 @@ const Table = () => {
                                                 </a>
                                             </td>
                                             <td className="py-3  pl-1">
-                                                <a href={item.html_url} target="_blank">
+                                                <a href={item.html_url}  target="_blank"  rel="noreferrer">
                                                     {item.name}
                                                 </a>
                                             </td>
