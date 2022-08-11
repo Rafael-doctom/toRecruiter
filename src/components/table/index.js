@@ -35,12 +35,12 @@ const Table = () => {
                                         <tr className="hover:bg-gray-100  border-y-2">
                                             <td className="">{item.topics.join(',  ')}</td>
                                             <td className="py-3 pl-1">
-                                                <a href={item.homepage} target="_blank"  rel="noopener" >
+                                                <a href={item.homepage} target="_blank"  rel="noreferrer" >
                                                     {item.name}
                                                 </a>
                                             </td>
                                             <td className="py-3  pl-1">
-                                                <a href={item.html_url}  target="_blank"  rel="noopener" >
+                                                <a href={item.html_url}  target="_blank"  rel="noreferrer" >
                                                     {item.name}
                                                 </a>
                                             </td>
