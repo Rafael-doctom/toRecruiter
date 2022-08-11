@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+
+a{
+    color: rgb(0, 123, 255);
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    width: 20vw;
+    min-width: 20vw;
+    max-width: 20vw;
+}
+
+
+tr{
+    width: 20vw;
+    min-width: 20vw;
+    max-width: 20vw;
+}
+
+td{
+    width: 20vw;
+    min-width: 20vw;
+    max-width: 20vw;
+}
+
+#modal{
+    background-color: white;
+    position: fixed;
+    width: 35vw;
+    height: 8vh;
+    bottom: 15px;
+    left: 35%;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 5px;
+    -webkit-box-shadow: -2px 7px 19px 3px rgba(0,0,0,0.61); 
+    box-shadow: -2px 7px 19px 3px rgba(0,0,0,0.61);
+
+    display: flex;
+}
+
+.teste2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.teste2 button span{
+    color: #007bff;
+    cursor: pointer;
+    display: block;
+    font-size: 2rem;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.teste2  span{
+    font-size: 1.15rem;
+}
+
+.svgIcon{
+    bottom: 2rem;
+    position: fixed;
+    right: 1rem;
+    transform: rotate(90deg); 
+    cursor: pointer;
+}
+
+svg{
+    width: 5vw;
+    height: 5vh;    
+    fill: #1266f1;
+
+}
+
+svg:hover{
+    width: 5vw;
+    height: 5vh;    
+    fill: #5e95ee;
+}
+
+@media (max-width:1024px){
+    th{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 90%;
+    }
+    
+    tr{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 90%;
+    }
+    
+    td{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 90%;
+    }
+}
+
+@media (max-width:768px){
+    th{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 80%;
+    }
+    
+    tr{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 80%;
+    }
+    
+    td{
+        width: 15vw;
+        min-width: 15vw;
+        max-width: 15vw;
+        font-size: 80%;
+    }
+}
