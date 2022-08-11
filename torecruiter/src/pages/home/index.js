@@ -1,4 +1,5 @@
 import Input from "../../components/input";
+import ScrollTop from "../../components/scrollTop";
 import Table from "../../components/table";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
           <Table />
         </div>
       </div>
+      <ScrollTop />
     </>
   )
 };
