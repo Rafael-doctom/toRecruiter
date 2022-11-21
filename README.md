@@ -12,7 +12,7 @@ to Recruiter is a web application that lists in table format all the projects de
 
 | Colors               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
-| Primary color  | ![#007bff](https://via.placeholder.com/10/007bff?text=+) #007bff |
+| Primary color  | #007bff |
 
 ## API documentation
 
