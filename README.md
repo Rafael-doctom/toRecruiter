@@ -39,7 +39,7 @@ GET /api.github.com/users/Rafael-doctom/starred
 
 ## Preview
 
-[!ToRecruiter](https://torecruiter.netlify.app/)
+[ToRecruiter](https://torecruiter.netlify.app/)
 
 
 ## Licença
