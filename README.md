@@ -22,7 +22,7 @@ to Recruiter is a web application that lists in table format all the projects de
 GET /api.github.com/users/Rafael-doctom/starred
 ```
 
-| Parâmetro   | Tipo       | Descrição                           |
+| Parameter   | Type       | Description                           |
 | :---------- | :--------- | :---------------------------------- |
 | `starred?per_page=100` | `string` | Return all data |
 
