@@ -42,7 +42,7 @@ GET /api.github.com/users/Rafael-doctom/starred
 [ToRecruiter](https://torecruiter.netlify.app/)
 
 
-## Licença
+## License 
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
